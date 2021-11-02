@@ -1,4 +1,37 @@
-<h1>Raja Awais Azhar</h1>
-<h1>My favorite hobby is trying new foods</h1>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Azhar_Raja</title>
+		<script>
+		function initialize(){
+            var currentTime = new Date();
+            var properFormat = currentTime.toLocaleTimeString();
+            var time = document.getElementById("time");
+            time.innerHTML = properFormat;
+        }
+        setInterval(initialize, 1000);
+		</script>
+		<style>
+			
+		</style>
 
-<h2>The current time is </h2>
+	</head>
+
+	<body onload="initialize();">
+	<h1>Raja Awais Azhar</h1>
+    <h2>My favorite hobby is trying new foods</h2>
+    <br>
+    
+    
+    <h2>The current time is: <p id="time">00:00:00</p></h2>
+
+    
+	</body>
+</html>
+
+
+
+
+
+
+
